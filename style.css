@@ -1,0 +1,86 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(4, 39, 4);
+}
+
+/*container*/
+.container{
+    height: calc(100vh - 405px);
+    width: 33vw;
+    position: relative;
+    left: calc(100% - 66%);
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*background-shoes*/
+.red-shoes{
+    background-color: red;
+}
+
+.green-shoes{
+    background-color: green;
+}
+
+.yellow-shoes{
+    background-color: yellow;
+}
+/*link/list item*/
+.link-container{
+    min-width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.link ul{
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+ul li{
+    list-style: none;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;
+    color: currentColor;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.content{
+    position: relative;
+    top: 65%;
+    left: 50%;
+    max-height: 110px;
+    max-width: 185px;
+    transform: translatex(-50%) translateY(-50%);  
+}
+
+#shoes1{
+    width: 200px;
+    transform: translateY(-50px) translateX(-5px) ;
+}
+
+h1{
+    transform: translateY(-80px);
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(255, 217, 0);
+    font-size: 15px;
+}
+
+.h1-green{
+    color: green;
+}
